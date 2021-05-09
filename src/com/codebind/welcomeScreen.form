@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="com.codebind.welcomeScreen">
+  <grid id="27dc6" binding="panel2" layout-manager="GridLayoutManager" row-count="8" column-count="6" same-size-horizontally="false" same-size-vertically="false" hgap="2" vgap="-1">
+    <margin top="10" left="10" bottom="10" right="10"/>
+    <constraints>
+      <xy x="20" y="20" width="400" height="358"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <hspacer id="f2b2c">
+        <constraints>
+          <grid row="2" column="5" row-span="6" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </hspacer>
+      <hspacer id="e443f">
+        <constraints>
+          <grid row="2" column="0" row-span="6" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </hspacer>
+      <hspacer id="a21bb">
+        <constraints>
+          <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </hspacer>
+      <component id="6100c" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Teacher Evaluation"/>
+        </properties>
+      </component>
+      <component id="7b125" class="javax.swing.JLabel" binding="WelcomeLabel">
+        <constraints>
+          <grid row="2" column="1" row-span="2" col-span="2" vsize-policy="3" hsize-policy="3" anchor="1" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <horizontalAlignment value="0"/>
+          <horizontalTextPosition value="0"/>
+          <text value="&lt;html&gt;Your Feedback is highly valueable&lt;br/&gt; for us welcome to the teacher evaluation &lt;br/&gt;system you can provide a real time&lt;br/&gt;feedback about your  instructors here.&lt;br/&gt; for user policy kindly refer to the&lt;br/&gt; link below. &lt;/html&gt;"/>
+          <verticalTextPosition value="0"/>
+        </properties>
+      </component>
+      <component id="e5588" class="javax.swing.JButton" binding="privacyPolicyButton" default-binding="true">
+        <constraints>
+          <grid row="6" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Privacy Policy ?"/>
+        </properties>
+      </component>
+      <component id="6cbd9" class="javax.swing.JButton" binding="loginButton">
+        <constraints>
+          <grid row="4" column="1" row-span="1" col-span="4" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Login"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
